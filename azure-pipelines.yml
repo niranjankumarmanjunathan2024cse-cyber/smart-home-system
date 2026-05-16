@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo "Smart Home System Pipeline Running Successfully"
+  displayName: 'Run Project'
